@@ -69,11 +69,17 @@
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
-
+	grid-row-start: 1;
+	grid-column-start: 2;
+	grid-row-end: 4;
+	grid-column-end: 4;
 }
 
 #grid-section2 .gridboxred {
-
+	grid-row-start: 2;
+	grid-column-start: 1;
+	grid-row-end: 3;
+	grid-column-end: 3;
 }
 
 /* end Grid Part 2 */
