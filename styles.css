@@ -39,11 +39,16 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+	display: grid;
+	place-content: center;
 }
 
 #flex-section3 .tags ul {
-
+	padding: 0;
+	display: flex;
+	align-content: flex-start;
+	list-style-type: none;
+	flex-wrap: wrap;
 }
 
 /* end Flexbox Part 3 */
